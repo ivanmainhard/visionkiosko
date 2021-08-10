@@ -1,25 +1,73 @@
 #kioskodefrente {
     width: 300px;
     height: 350px;
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
 }
-#nomkiosko{
+#kioskodefrente2 {
+    width: 1024;
+    height: 350px;
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
     
+}
+#kioskodefrente3{
+    width: 1024;
+    height: 350px;
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
+}
+#nomkiosko{ 
     width: 300px;
     margin: 20px auto;
-    background-color: greenyellow ;
+    background-color: #7FFF00 ;
     border: 2px solid grey;
     position: relative;
+    color: white;
+
+
+
+
+
 }
 
 h3{
     width: 300px;
-    background-color: greenyellow ;
+    background-color: #7FFF00 ;
     border: 2px solid grey;
     position: relative;
+    color: white;
 }
 
 #horarios{
-    border: black 1px solid;
     position: relative;
     top: -20px;
+    color: #000;
+}
+#productos{
+    color: #000;
+}
+#ubicacion{
+    color: #111;
+}
+#pie-pag{
+color: black;
+}
+#boton-ubicacion{
+    display: block;
+    margin: auto;
+    color: #000 ;
+}
+body {
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReWY7YCkhpgMLPqsxorCLG8CrcVVjDXIZtDA&usqp=CAU");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+#botones{
+    position: center;
 }

@@ -8,52 +8,57 @@
     <title>KIOSKO VISION</title>
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="imagenes/logo kiosko.jpg" type="image/ico" />
 </head>
-
 <body>
-    <h1 id=nomkiosko>VISION KIOSKO</h1>
-    <!--botones de ubicacion ofertas productos horarios-->
-    <div id=botones>
+    <h1 id="nomkiosko" class="text-center">kiosko vision</h1>
+    <div id="botones">
         <table>
             <td>
                 <tr>
-                    <a style="margin-left: 50px" href="#" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-map-marker">UBICACION</span></a>
+                    <a style="margin-left: 50px" href="#Direccion" class="btn btn-danger"><span class="glyphicon glyphicon-map-marker">UBICACION</span></a>
                 </tr>
 
 
                 <tr>
-                    <a style="margin-left: 50px" href="#" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-fire"></span>OFERTAS</a>
+                    <a style="margin-left: 50px" href="#Ofertas" class="btn btn-danger"><span class="glyphicon glyphicon-fire"></span>OFERTAS</a>
                 </tr>
 
 
                 <tr>
-                    <a style="margin-left: 50px" href="#" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-usd"></span> PRODUCTOS</a>
+                    <a style="margin-left: 50px" href="#Producto" class="btn btn-danger"><span class="glyphicon glyphicon-usd"></span> PRODUCTOS</a>
                 </tr>
 
 
                 <tr>
-                    <a style="margin-left: 50px" href="#" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-calendar"></span> HORARIOS</a>
+                    <a style="margin-left: 50px" href="#Horarios" class="btn btn-danger"><span class="glyphicon glyphicon-calendar"></span> HORARIOS</a>
                 </tr>
             </td>
         </table>
     </div>
-
     <br>
     <!--todo lo de direccion y ubicacion del kiosko-->
-    <div>
+    <a name="Direccion"></a>
+    <div id="ubicacion">
         <h3>DIRECCION</h3>
         <P>
             Estamos en el barrio Z1 manzana 23 casa 11
         </P>
-        <img src="imagenes\visionkiosko.jpg" alt="imgane del kiosko de frente" id="kioskodefrente">
+        <img src="imagenes\visionkiosko.jpg" alt="imgane del kiosko de frente" id="kioskodefrente" class="center">
         <br>
-        <br><a href="https://tinyurl.com/yhycl92e" class="btn btn-default"><span class="glyphicon glyphicon-map-marker"></span> Ubicacion</a>
-
+        <img src="imagenes/kiosko.jpg" alt="imagnes del kiosko" id="kioskodefrente2">
+        <br>
+        <img src="imagenes/kiosko2.jpg" alt="imagenes del kisko con gente" id="kioskodefrente3">
+        <br>
+    <a href="https://tinyurl.com/yhycl92e" class="btn btn-default" id="boton-ubicacion"><span class="glyphicon glyphicon-map-marker"></span> ubicacion</a>
+    <a name="Horarios"></a>
+    <div id="horarios">
+        
         <h3>HORARIOS</h3>
         <p> ESTAMOS DE LUNES A LUNES</p>
         <p>viernes de 7am a 11pm sabados y domingos de 7am a 2am</p><br>
 
-        <table class="table-bordered" id=horarios>
+        <table class="table-bordered">
             <th>
                 días
             </th>
@@ -93,7 +98,8 @@
 
     </div>
     <!--listado de productos del kiosko-->
-    <div>
+    <a name="Productos"></a>
+    <div id="productos">
         <h3>productos</h3>
         <table class="table-bordered">
             <th>
@@ -260,6 +266,9 @@
             </tr>
         </table>
     </div>
+    <div  id="pie-pag"class="container-fluid  text-center p-3">
+        <p>telefono de contacto: 2996346537</p>
+        <p class="small">&copy; todos los derechos reservados :: vision kiosko :: Argentina 2021 </p>
+    </div>
 </body>
-
 </html>
