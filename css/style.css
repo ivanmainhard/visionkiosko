@@ -20,6 +20,13 @@
     margin: auto;
     border: 2px solid grey;
 }
+#logo-kiosko{
+    width: 150;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border: 2px solid grey; 
+}
 #nomkiosko{ 
     width: 300px;
     margin: 20px auto;
@@ -69,5 +76,6 @@ body {
   background-position: center center;
 }
 #botones{
+    top: -20px;
     position: center;
 }
