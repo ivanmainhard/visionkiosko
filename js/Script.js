@@ -1,0 +1,1 @@
+window.alert('¿quiere ingresar a la pagina?')
