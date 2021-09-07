@@ -99,3 +99,9 @@ h6 {
 
 
 }
+#color-sticky-top{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReWY7YCkhpgMLPqsxorCLG8CrcVVjDXIZtDA&usqp=CAU");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
