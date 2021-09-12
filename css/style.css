@@ -20,13 +20,6 @@
     margin: auto;
     border: 2px solid grey;
 }
-#kiosko_imagen3{
-
-height: 100px;
-width: 10px; 
-
-
-}
 
 
 
@@ -81,7 +74,13 @@ h3{
 }
 #productos{
     color: #000;
+    
 }
+
+
+
+
+
 #ubicacion{
     color: #111;
 }
