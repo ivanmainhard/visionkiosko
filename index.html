@@ -13,328 +13,308 @@
     <script src="js/Script.js"></script>
 </head>
 <body>
+    <div class="container-sm">
     <!--boton de whatsapp-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=2996346537&text=Hola Bienvenido al whatsapp de kiosko vision." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
     </a>
-    <!--titulos de pag y logo del kiosko-->
-    <p id="nomkiosko">
-    <h1 id="nomkiosko" class="text-center">kiosko vision</h1></p>
-    <img src="imagenes/logo kiosko.jpg" alt="logo del kiosko" id="logo-kiosko">
-    <br>
-    <!--botones iniciales-->
+    <div class="parent">
+         <!--titulos de pag y logo del kiosko-->
+        <div class="div1">
+            <p id="nomkiosko">
+            <h1 id="nomkiosko" class="text-center">kiosko vision</h1></p>
+            <img src="imagenes/logo kiosko.jpg" alt="logo del kiosko" id="logo-kiosko">
+            <br> 
+            <nav class="navbar sticky-top navbar-light bg-light" id="color-sticky-top">
+                <table>
+                    <td>
+                        <tr>
+                            <a style="margin-left: 50px" href="#Direccion" class="btn btn-danger"><span class="glyphicon glyphicon-map-marker">UBICACION</span></a>
+                        </tr>
     
-
-
-</header>
-    <nav class="navbar sticky-top navbar-light bg-light" id="color-sticky-top">
-    <div id="botones">
-        <table>
-            <td>
-                <tr>
-                    <a style="margin-left: 50px" href="#Direccion" class="btn btn-danger"><span class="glyphicon glyphicon-map-marker">UBICACION</span></a>
-                </tr>
-
-
-                <tr>
-                    <a style="margin-left: 50px" href="#Ofertas" class="btn btn-danger"><span class="glyphicon glyphicon-fire"></span>OFERTAS</a>
-                </tr>
-
-
-                <tr>
-                    <a style="margin-left: 50px" href="#Productos" class="btn btn-danger"><span class="glyphicon glyphicon-usd"></span> PRODUCTOS</a>
-                </tr>
-
-
-                <tr>
-                    <a style="margin-left: 50px" href="#Horarios" class="btn btn-danger"><span class="glyphicon glyphicon-calendar"></span> HORARIOS</a>
-                </tr>
-            </td>
-        </table>
-    </div>
-    </nav>
-    <br>
-    <!--todo lo de direccion y ubicacion del kiosko-->
-    <a name="Direccion"></a>
-    <div id="ubicacion">
-        <h3>DIRECCION</h3>
-        <P>
-           Hola clientes y vecinos le damos la bienvenida ala pagina del kiosko vision 
-        </P> 
-        <p>
-          Estamos en el barrio Z1 manzana 23 casa 11
-        </p>  
+    
+                        <tr>
+                            <a style="margin-left: 50px" href="#Ofertas" class="btn btn-danger"><span class="glyphicon glyphicon-fire"></span>OFERTAS</a>
+                        </tr>
+    
+    
+                        <tr>
+                            <a style="margin-left: 50px" href="#Productos" class="btn btn-danger"><span class="glyphicon glyphicon-usd"></span> PRODUCTOS</a>
+                        </tr>
+    
+    
+                        <tr>
+                            <a style="margin-left: 50px" href="#Horarios" class="btn btn-danger"><span class="glyphicon glyphicon-calendar"></span> HORARIOS</a>
+                        </tr>
+                    </td>
+                </table>
+            </nav> 
+        </div>
+        <a name="Direccion"></a>
+        <div class="div2" id="ubicacion"> 
+            <h3>DIRECCION</h3>
+            <P>
+            Hola clientes y vecinos le damos la bienvenida ala pagina del kiosko vision 
+            </P> 
+            <p>
+            Estamos en el barrio Z1 manzana 23 casa 11
+            </p>  
+                
+        
+            <img src="imagenes\visionkiosko.jpg" alt="imgane del kiosko de frente" id="kioskodefrente" class="center">
+            <br>
+            <img src="imagenes/kiosko.jpg" alt="imagnes del kiosko" id="kioskodefrente2">
+            <br>
+            <img src="imagenes/kiosko2.jpg" alt="imagenes del kisko con gente" id="kioskodefrente3">
+            <br>
             
-       
-        <img src="imagenes\visionkiosko.jpg" alt="imgane del kiosko de frente" id="kioskodefrente" class="center">
-        <br>
-        <img src="imagenes/kiosko.jpg" alt="imagnes del kiosko" id="kioskodefrente2">
-        <br>
-        <img src="imagenes/kiosko2.jpg" alt="imagenes del kisko con gente" id="kioskodefrente3">
-        <br>
+        </div>
+        <a name="Horarios"></a>
+        <div class="div3" id="horarios">
+            <h3>HORARIOS</h3>
+            <p> ESTAMOS DE LUNES A LUNES</p>
+            <p> Estamos de viernes de 7am a 11pm sabados y domingos de 7am a 2am</p><br>
+    
+            <table class="table-bordered">
+                <th>
+                    días
+                </th>
+                <th>
+                    HORARIOS
+                </th>
+                <tr>
+                    <td>LUNES</td>
+                    <td>7am-11pm</td>
+                </tr>
+                <tr>
+                    <td>MARTES</td>
+                    <td>7am-11pm</td>
+                </tr>
+                <tr>
+                    <td>MIERCOLES</td>
+                    <td>7am-11pm</td>
+                </tr>
+                <tr>
+                    <td>JUEVES</td>
+                    <td>7am-11pm</td>
+                </tr>
+                <tr>
+                    <td>VIERNES</td>
+                    <td>7am-11pm</td>
+                </tr>
+                <tr>
+                    <td>SABADOS</td>
+                    <td>7am-2am</td>
+                </tr>
+                <tr>
+                    <td>DOMINGOS</td>
+                    <td>7am-2am</td>
+                </tr>
+            </table>
+            <br>
+        </div>
+        <a name="Productos"></a>
+        <div class="div4"  id="productos">
+            <h3>productos</h3>
+            <table class="table-bordered">
+                <th>
+                    producto
+                </th>
+                <th>
+                    precio
+                </th>
+                <tr>
+                    <td>pico dulce grande</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>hamlet chocolatoso</td>
+                    <td>$65</td>
+                </tr>
+                <tr>
+                    <td>chisito pehuamar</td>
+                    <td>$95 los 100 gramos</td>
+                </tr>
+                <tr>
+                    <td>papas fritas pehuamar</td>
+                    <td>$95 los 100 gramos</td>
+                </tr>
+                <tr>
+                    <td>baggio fresh naranja</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>baggio fresh pomelo</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>galle vainillas</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>agua saborizada cellier s/gas pomelo</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>agua brio sabor manzana s/gas</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>galle 9 de oro rellenas de vainilla</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>galle 9 de oro rellenas vainilla</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>galle 9 de oro tri cho vai</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>galle rex</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>galle polvorita vai frut</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>pipas girasol</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>shampoo sedal</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>coca botella/retorable</td>
+                    <td>$170</td>
+                </tr>
+                <tr>
+                    <td>galle saladix</td>
+                    <td>$75</td>
+                </tr>
+                <tr>
+                    <td>galle surtido bagley</td>
+                    <td>$165</td>
+                </tr>
+                <tr>
+                    <td>galle traviata</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>galle 9 de oro agridulce</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>galle 9 de oro saladas</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>lucky convertible box 20</td>
+                    <td>$240</td>
+                </tr>
+                <tr>
+                    <td>lucky convertible box 12</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>red point</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>camel box 20</td>
+                    <td>$260</td>
+                </tr>
+                <tr>
+                    <td>master</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>papelillo ocb (caja)</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>manaos cola</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>manaos pomelo</td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td>pepitos trio</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Papel higenico el coloso </td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>rompe muelas</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>fizz</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Cofler Air</td>
+                    <td>$85</td>
+                </tr>
+                <tr>
+                    <td>georgallos</td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td>macucas</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>lincon</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>manas</td>
+                    <td>$120</td>
+                </tr>
+            </table>
+        </div>
+        <a name="Ofertas"></a>
+        <div class="div5"> 
+                <h3>OFERTAS</h3>
+            <br>
+            <p>modeneas de oro 4x $100</p>
+            
+            <br>
+            <p>4 alfajores vimar escolar x $100</p>
+            
+            <br>
+            <p>3 alfajores vimar x $100 </p>
+            
+            <br>
+            <p>4 alfajores vimar + 1 levite de 300 ml x $150</p>
         
+            <br>
+            <p>2 cervesas de 340 ml x $190</p>
+        
+            <br>
+            <p>1/2 kg de nuggets + 1 agua saborizada x $280</p>
+        
+            <br>
+            <p>1 alfajor triple + 1 agua saborizada de manzana de 300 ml x $85</p> 
+        </div>
+        <div class="div6"> 
+            <footer id="pie-pag"class="container-fluid  text-center p-3">
+            <p>telefono de contacto: 2996346537</p>
+            <p class="small">&copy; todos los derechos reservados :: vision kiosko :: Argentina 2021 </p>
+            
+            <a href="https://tinyurl.com/yhycl92e"><img src="https://cdn.discordapp.com/attachments/726139117980876800/885179649573941318/descarga.png" width="110px" height="100px"></a>
+            </footer>
+        </div>
     </div>
-    <a name="Horarios"></a>
-    <div id="horarios">
-        
-        <h3>HORARIOS</h3>
-        <p> ESTAMOS DE LUNES A LUNES</p>
-        <p> Estamos de viernes de 7am a 11pm sabados y domingos de 7am a 2am</p><br>
-
-        <table class="table-bordered">
-            <th>
-                días
-            </th>
-            <th>
-                HORARIOS
-            </th>
-            <tr>
-                <td>LUNES</td>
-                <td>7am-11pm</td>
-            </tr>
-            <tr>
-                <td>MARTES</td>
-                <td>7am-11pm</td>
-            </tr>
-            <tr>
-                <td>MIERCOLES</td>
-                <td>7am-11pm</td>
-            </tr>
-            <tr>
-                <td>JUEVES</td>
-                <td>7am-11pm</td>
-            </tr>
-            <tr>
-                <td>VIERNES</td>
-                <td>7am-11pm</td>
-            </tr>
-            <tr>
-                <td>SABADOS</td>
-                <td>7am-2am</td>
-            </tr>
-            <tr>
-                <td>DOMINGOS</td>
-                <td>7am-2am</td>
-            </tr>
-        </table>
-        <br>
-
-
     </div>
-    <!--listado de productos del kiosko-->
-    <a name="Productos"></a>
-    <div id="productos">
-        <h3>productos</h3>
-        <table class="table-bordered">
-            <th>
-                producto
-            </th>
-            <th>
-                precio
-            </th>
-            <tr>
-                <td>pico dulce grande</td>
-                <td>$30</td>
-            </tr>
-            <tr>
-                <td>hamlet chocolatoso</td>
-                <td>$65</td>
-            </tr>
-            <tr>
-                <td>chisito pehuamar</td>
-                <td>$95 los 100 gramos</td>
-            </tr>
-            <tr>
-                <td>papas fritas pehuamar</td>
-                <td>$95 los 100 gramos</td>
-            </tr>
-            <tr>
-                <td>baggio fresh naranja</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>baggio fresh pomelo</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>galle vainillas</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>agua saborizada cellier s/gas pomelo</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>agua brio sabor manzana s/gas</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>galle 9 de oro rellenas de vainilla</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>galle 9 de oro rellenas vainilla</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>galle 9 de oro tri cho vai</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>galle rex</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>galle polvorita vai frut</td>
-                <td>$70</td>
-            </tr>
-            <tr>
-                <td>pipas girasol</td>
-                <td>$25</td>
-            </tr>
-            <tr>
-                <td>shampoo sedal</td>
-                <td>$200</td>
-            </tr>
-            <tr>
-                <td>coca botella/retorable</td>
-                <td>$170</td>
-            </tr>
-            <tr>
-                <td>galle saladix</td>
-                <td>$75</td>
-            </tr>
-            <tr>
-                <td>galle surtido bagley</td>
-                <td>$165</td>
-            </tr>
-            <tr>
-                <td>galle traviata</td>
-                <td>$70</td>
-            </tr>
-            <tr>
-                <td>galle 9 de oro agridulce</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>galle 9 de oro saladas</td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>lucky convertible box 20</td>
-                <td>$240</td>
-            </tr>
-            <tr>
-                <td>lucky convertible box 12</td>
-                <td>$150</td>
-            </tr>
-            <tr>
-                <td>red point</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>camel box 20</td>
-                <td>$260</td>
-            </tr>
-            <tr>
-                <td>master</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>papelillo ocb (caja)</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>manaos cola</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>manaos pomelo</td>
-                <td>$130</td>
-            </tr>
-            <tr>
-                <td>pepitos trio</td>
-                <td>$150</td>
-            </tr>
-            <tr>
-                <td>Papel higenico el coloso </td>
-                <td>$90</td>
-            </tr>
-            <tr>
-                <td>rompe muelas</td>
-                <td>$10</td>
-            </tr>
-            <tr>
-                <td>fizz</td>
-                <td>$20</td>
-            </tr>
-            <tr>
-                <td>Cofler Air</td>
-                <td>$85</td>
-            </tr>
-            <tr>
-                <td>georgallos</td>
-                <td>$60</td>
-            </tr>
-            <tr>
-                <td>macucas</td>
-                <td>$80</td>
-            </tr>
-            <tr>
-                <td>lincon</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>manas</td>
-                <td>$120</td>
-            </tr>
-        </table>
-    </div>
-    <BR></BR>
-    <!--ofertas-->
-    <a name="Ofertas"></a>
-    <div>
-        
-        <h3>OFERTAS</h3>
-        <br>
-        <p>modeneas de oro 4x $100</p>
-        
-        <br>
-        <p>4 alfajores vimar escolar x $100</p>
-        
-        <br>
-        <p>3 alfajores vimar x $100 </p>
-        
-        <br>
-        <p>4 alfajores vimar + 1 levite de 300 ml x $150</p>
-       
-        <br>
-        <p>2 cervesas de 340 ml x $190</p>
-     
-        <br>
-        <p>1/2 kg de nuggets + 1 agua saborizada x $280</p>
-     
-        <br>
-        <p>1 alfajor triple + 1 agua saborizada de manzana de 300 ml x $85</p>
-   
-    </div>
-
-   
-
-
-
-
-
-
-    <!--pie de pagina-->
-    <footer>
-    <div  id="pie-pag"class="container-fluid  text-center p-3">
-        <p>telefono de contacto: 2996346537</p>
-        <p class="small">&copy; todos los derechos reservados :: vision kiosko :: Argentina 2021 </p>
-        
-        <a href="https://tinyurl.com/yhycl92e"><img src="https://cdn.discordapp.com/attachments/726139117980876800/885179649573941318/descarga.png" width="110px" height="100px"></a>
-    </div>
-    </footer>
 </body>
 </html>
