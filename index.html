@@ -10,48 +10,35 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" href="imagenes/logo kiosko.jpg" type="image/ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="js/Script.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <!--boton de whatsapp-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://api.whatsapp.com/send?phone=2996346537&text=Hola Bienvenido al whatsapp de kiosko vision." class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
         </a>
         <div class="parent">
-            <!--titulos de pag y logo del kiosko-->
             <div class="div1">
+                <a name="Inicio"></a>
                 <p id="nomkiosko">
                 <h1 id="nomkiosko" class="text-center">kiosko vision</h1></p>
                 <img src="imagenes/logo kiosko.jpg" alt="logo del kiosko" id="logo-kiosko">
-                <br> 
-                <nav class="navbar sticky-top navbar-light bg-light" id="color-sticky-top">
-                    <table>
-                        <td>
-                            <tr>
-                                <a style="margin-left: 50px" href="#Direccion" class="btn btn-danger"><span class="glyphicon glyphicon-map-marker">UBICACION</span></a>
-                            </tr>
-        
-        
-                            <tr>
-                                <a style="margin-left: 50px" href="#Ofertas" class="btn btn-danger"><span class="glyphicon glyphicon-fire"></span>OFERTAS</a>
-                            </tr>
-        
-        
-                            <tr>
-                                <a style="margin-left: 50px" href="#Productos" class="btn btn-danger"><span class="glyphicon glyphicon-usd"></span> PRODUCTOS</a>
-                            </tr>
-        
-        
-                            <tr>
-                                <a style="margin-left: 50px" href="#Horarios" class="btn btn-danger"><span class="glyphicon glyphicon-calendar"></span> HORARIOS</a>
-                            </tr>
-                        </td>
-                    </table>
-                </nav> 
             </div>
-            <div class="div2" id="ubicacion"> 
+            <div class="div2"> 
+                <nav id='menu'>
+                    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                    <ul>
+                      <li><a href='#Inicio' >Inicio</a></li>
+                      <li><a href='#Direccion'>Direccion</a></li>
+                      <li><a href='#Horarios'>Horarios</a></li>
+                      <li><a href='#Productos'>Productos</a></li>
+                      <li><a href='#Ofertas'>Ofertas</a></li>
+                    </ul>
+                  </nav> 
+            </div>
+            <div class="div3" id="ubicacion"> 
                 <a name="Direccion"></a>
                 <h3>DIRECCION</h3>
                 <P>
@@ -68,10 +55,9 @@
                 <br>
                 <img src="imagenes/kiosko2.jpg" alt="imagenes del kisko con gente" id="kioskodefrente3">
                 <br>
-                
             </div>
-            <div class="div3" id="horarios">
-                <a name="Horarios"></a>
+            <div class="div4"> 
+                <a name="Horarios" id="horarios"></a>
                 <h3>HORARIOS</h3>
                 <p> ESTAMOS DE LUNES A LUNES</p>
                 <p> Estamos de viernes de 7am a 11pm sabados y domingos de 7am a 2am</p><br>
@@ -114,7 +100,7 @@
                 </table>
                 <br>
             </div>
-            <div class="div4"  id="productos">
+            <div class="div5" id="productos"> 
                 <a name="Productos"></a>
                 <h3>productos</h3>
                 <table class="table-bordered">
@@ -282,7 +268,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="div5"> 
+            <div class="div6"> 
                 <a name="Ofertas"></a>
                 <h3>OFERTAS</h3>
                 <br>
@@ -306,15 +292,14 @@
                 <br>
                 <p>1 alfajor triple + 1 agua saborizada de manzana de 300 ml x $85</p> 
             </div>
-            <div class="div6"> 
+            <div class="div7"> 
                 <footer id="pie-pag"class="container-fluid  text-center p-3">
-                <p>telefono de contacto: 2996346537</p>
-                <p class="small">&copy; todos los derechos reservados :: vision kiosko :: Argentina 2021 </p>
-                
-                <a href="https://tinyurl.com/yhycl92e"><img src="https://cdn.discordapp.com/attachments/726139117980876800/885179649573941318/descarga.png" width="110px" height="100px"></a>
-                </footer>
+                    <p>telefono de contacto: 2996346537</p>
+                    <p class="small">&copy; todos los derechos reservados :: vision kiosko :: Argentina 2021 </p>
+                    
+                    <a href="https://tinyurl.com/yhycl92e"><img src="https://cdn.discordapp.com/attachments/726139117980876800/885179649573941318/descarga.png" width="110px" height="100px"></a>
+                    </footer>
             </div>
         </div>
-    </div>
 </body>
 </html>
