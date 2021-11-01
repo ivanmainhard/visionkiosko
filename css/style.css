@@ -121,6 +121,7 @@ h6 {
 	border: 4px double #606591;
     position:fixed;
     width: 99%;
+    align-content: center;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -209,7 +210,7 @@ h6 {
 	#menu input:checked ~ ul {display:block}
 }
 /*Mapeo de la pagina*/
-.parent {
+.total {
     display: grid;
     grid-template-columns: 1fr repeat(4, 0);
     grid-template-rows: 0.3fr repeat(4, 0.5fr) 0.2fr;
@@ -217,10 +218,10 @@ h6 {
     grid-row-gap: 0px;
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 2 / 1 / 8 / 2; }
-    .div3 { grid-area: 3 / 1 / 4 / 2; }
-    .div4 { grid-area: 4 / 1 / 5 / 2; }
-    .div5 { grid-area: 5 / 1 / 6 / 2; }
-    .div6 { grid-area: 6 / 1 / 7 / 2; }
-    .div7 { grid-area: 7 / 1 / 8 / 2; }
+    .Header { grid-area: 1 / 1 / 2 / 2; }
+    .menu_flotante { grid-area: 2 / 1 / 8 / 2; }
+    .direccion { grid-area: 3 / 1 / 4 / 2; }
+    .horarios { grid-area: 4 / 1 / 5 / 2; }
+    .productos { grid-area: 5 / 1 / 6 / 2; }
+    .ofertas { grid-area: 6 / 1 / 7 / 2; }
+    .pie_pag { grid-area: 7 / 1 / 8 / 2; }
