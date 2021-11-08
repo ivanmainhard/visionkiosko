@@ -110,6 +110,9 @@ h6 {
 
 
 }
+p{
+    font-family: Robot;
+}
 /*codigo de barra*/
 #menu {
 	background: #0099CC;
