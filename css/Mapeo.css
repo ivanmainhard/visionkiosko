@@ -1,0 +1,15 @@
+.total {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 0);
+    grid-template-rows: 0.3fr repeat(4, 0.5fr) 0.2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .Header { grid-area: 1 / 1 / 2 / 2; }
+    .menu_flotante { grid-area: 2 / 1 / 8 / 2; }
+    .direccion { grid-area: 3 / 1 / 4 / 2; }
+    .horarios { grid-area: 4 / 1 / 5 / 2; }
+    .productos { grid-area: 5 / 1 / 6 / 2; }
+    .ofertas { grid-area: 6 / 1 / 7 / 2; }
+    .pie_pag { grid-area: 7 / 1 / 8 / 2; }
